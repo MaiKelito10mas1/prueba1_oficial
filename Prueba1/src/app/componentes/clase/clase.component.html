@@ -1,0 +1,14 @@
+<p>Formulario-seccion</p>
+<section>
+  <fieldset>
+    <label>Ingresar la id de la clase: </label>
+    <input type="number" (input)="rID($event)">
+  </fieldset>
+  <fieldset>
+    <label>Ingresar la seccion de la clase: </label>
+    <input type="text" (input)="rSeccion($event)">
+  </fieldset>
+  <fieldset>
+    <button type="button" (click)="guardarRegistro()">Guardar</button>
+  </fieldset>
+</section>
